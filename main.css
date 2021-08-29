@@ -28,6 +28,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 10px 0 0 10px;
+  margin: 2rem;
 }
 
 .info h1 {
@@ -51,9 +52,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -63,14 +64,12 @@ body {
   color: white;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 1px;
 }
 
 .analytics p {
   color: rgba(255, 255, 255, 0.6);
   font-family: 'Lexend Deca', sans-serif;
-  text-align: center;
   margin-top: 1px;
   padding-left: 3rem;
 }
